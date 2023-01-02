@@ -1,6 +1,8 @@
 <?php 
 class a{
-    public function samplr(){
+    public static function samplr(){
     print "hello world";
 }
+
 }
+a::samplr();
